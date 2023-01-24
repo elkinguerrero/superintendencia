@@ -123,7 +123,7 @@ function sendRequestPOSTNew( url, send ){
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     
         xhr.onreadystatechange = function () {
-            console.log(xhr,send)
+            // console.log(xhr,send)
             if (xhr.readyState == 4 && xhr.status == 200) {
                 let result = JSON.parse( xhr.responseText )
                 resolve(result);

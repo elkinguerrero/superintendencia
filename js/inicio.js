@@ -2,6 +2,26 @@
 let menu, user={}, modal_direction, json_config = {};
 //Inicio de la aplicación
 $(document).ready(async function () {
+    //Se valida si el usuario ha iniciado sesion
+    let sesion = await sendRequestPOSTNew( "/request/valid_sesion.php", ``)
+    if( sesion.status == 1 )
+        if( sesion.mensaje == 1 ){
+            //Sesion iniciada
+        }else{
+            alert("Sesion expirada","error",3000);
+            setTimeout(() => {
+                location.assign("index.html")    
+            }, 3000);
+            return
+        }
+    else{
+        alert("Error deve volverse a loguear","error",3000);
+        setTimeout(() => {
+            location.assign("index.html")    
+        }, 3000);
+        return
+    }
+
     // if( get_variables_cache("citizen") == undefined )
     //     location.assign("/")
     // else
@@ -266,9 +286,9 @@ $(document).ready(async function () {
                         }]
                     })
                 },
-                salir(){
-                    clear_cache();
-                    alert("Funcion deshabilitada","error",3000)
+                async salir(){
+                    await sendRequestPOSTNew( "/request/destroid_sesion.php", ``)
+                    location.assign("index.html");
                 }
             },
             mounted() {

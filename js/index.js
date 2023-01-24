@@ -1,3 +1,11 @@
+$(document).ready(async function(){
+	let sesion = await sendRequestPOSTNew( "/request/valid_sesion.php", ``)
+	console.log(sesion)
+	if( sesion.status == 1 && sesion.mensaje == 1 )
+		location.assign("inicio.html");
+})
+
+
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
