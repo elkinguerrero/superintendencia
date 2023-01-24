@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SuperIntendencia</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.png" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link href="css/loading.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Crear cuenta</h1>
+                <!-- <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>o use su correo electrónico para registrarse</span> -->
+                <br>
+                <input type="text" class="r_name" placeholder="Nombre" />
+                <input type="email" class="r_email" placeholder="correo" />
+                <br>
+                <span class="button registrarse">Registrarse</span>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Ingresar</h1>
+                <!-- <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>o usa tu cuenta</span> -->
+                <br>
+                <input type="email" placeholder="correo" class="l_correo"/>
+                <input type="password" placeholder="clave" class="l_clave"/>
+                <a href="#" class="recuperar">Olvidaste tu clave?</a>
+                <span class="button ingresar">Ingresar</span>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>SuperIntendencia</h1>
+                    <p>Para mantenerse conectado con nosotros, inicie sesión con su información personal</p>
+                    <span class="ghost button" id="signIn">Ingresar</span>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>SuperIntendencia</h1>
+                    <p>Bienvenido de nuevo</p>
+                    <span class="ghost button" id="signUp">Registrate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer>
+        <p>
+            Created with <i class="fa fa-heart"></i> by
+            <a target="_blank" href="https://florin-pop.com">Florin Pop</a>
+            - Read how I created this and how you can join the challenge
+            <a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
+        </p>
+    </footer> -->
+    <!-- partial -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
