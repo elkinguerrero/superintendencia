@@ -18,7 +18,7 @@ http://34.16.128.101
 
 CONEXIÓN
 
-Es posibole conectarse a la base de datos con las credeciales que estan en el archivo sesion en la carpeta request, dicha conexion se puede hacer desde workbech o algun gestor de base de datos que permita conexiones ssl para conectarse desde otro lugar lea el manual de conexión a bases de datos de azure mysql
+Es posibole conectarse a la base de datos de producción con las credeciales que estan en el archivo sesion en la carpeta request, dicha conexion se puede hacer desde workbech o algun gestor de base de datos que permita conexiones ssl para conectarse desde otro lugar lea el manual de conexión a bases de datos de azure mysql
 
 ----------------------------------------------
 
