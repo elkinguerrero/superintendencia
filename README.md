@@ -5,7 +5,7 @@ DETALLES
 
 la carpeta request contiene las peticiones como el login y la traida de los datos, tambien trae los datos de un usuario publico en una base de datos en Azure
 
-el key es una llave para la utenticacion a los servicios de la base de datos de myslq azure
+el key es una llave para la autenticación a los servicios de la base de datos de myslq azure
 
 ----------------------------------------------
 
@@ -18,7 +18,7 @@ http://34.16.128.101
 
 CONEXIÓN
 
-Es posibole conectarse a la base de datos de producción con las credeciales que estan en el archivo sesion en la carpeta request, dicha conexion se puede hacer desde workbech o algun gestor de base de datos que permita conexiones ssl para conectarse desde otro lugar lea el manual de conexión a bases de datos de azure mysql
+Es posibole conectarse a la base de datos de producción con las credeciales que estan en el archivo sesion en la carpeta request, dicha conexion se puede hacer desde workbech o algun gestor de base de datos que permita conexiones ssl, para conectarse desde otro lugar lea el manual de conexión a bases de datos de azure mysql
 
 ----------------------------------------------
 
