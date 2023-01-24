@@ -24,6 +24,6 @@ Es posibole conectarse a la base de datos con las credeciales que estan en el ar
 
 MYSQL query
 
-Se deja el query con todo el contenido de la base de datos para poder ser reproducido si se desea en esta misma carpeta, data.query
+Se deja el query con todo el contenido de la base de datos para poder ser reproducido si se desea en esta misma carpeta, query.sql
 
 ----------------------------------------------
