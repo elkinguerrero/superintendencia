@@ -17,6 +17,10 @@ VISIBILIDAD
 la pagina es visible en la siguiente ruta o compilando el codigo en php version 7 en adelante
 
 http://34.16.128.101
+
+usuario: elkin-951011@hotmail.com
+clave: clave
+
 ----------------------------------------------
 
 CONEXIÓN
