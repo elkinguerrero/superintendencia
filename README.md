@@ -1,7 +1,5 @@
 # superintendencia
 
-Solo pude hacer la prueba del archivo 1
-
 ----------------------------------------------
 
 DETALLES
@@ -16,7 +14,7 @@ VISIBILIDAD
 
 la pagina es visible en la siguiente ruta o compilando el codigo en php version 7 en adelante
 
-http://34.16.128.101
+http://34.125.224.158:3001/
 
 
 usuario: elkin-951011@hotmail.com

@@ -6,7 +6,7 @@
     //Se trae la conexion
     include "sesion.php";
     //Se consulta si el correo existe
-    $query = "SELECT R.*, u.email FROM registros R 
+    $query = "SELECT R.*, U.email FROM registros R 
     INNER JOIN user U
     ON R.usuario_crea = U.id
     ORDER BY R.fecha DESC";

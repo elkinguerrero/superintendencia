@@ -5,5 +5,5 @@
 
     // phpinfo();
     $con = mysqli_init();
-    mysqli_ssl_set($con,NULL,NULL, "../key/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
-    mysqli_real_connect($con, "elkin931011.mysql.database.azure.com", "superintendencia", "YzNWd1pYSnBiblJsYm1SbGJtTnBZUT09", "superintendencia");
+    // mysqli_ssl_set($con,NULL,NULL, "../key/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
+    mysqli_real_connect($con, "elkin.click", "superintendencia", "YzNWd1pYSnBiblJsYm1SbGJtTnBZUT09", "superintendencia");
